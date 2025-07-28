@@ -1,11 +1,6 @@
-import readline from 'readline';
+// Operdores lógicos
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+let edad = 20;
+let tieneDUI = true;
 
-rl.question('Cuál es tu nombre? ', (nombre) => {
-    console.log(`Hola ${nombre}, Cómo estás?`)
-    rl.close();
-})
+console.log("Puede voar? " + (edad >= 18 && tieneDUI ? "Sí puede votar" : "No puede votar"));

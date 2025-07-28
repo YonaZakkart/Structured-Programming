@@ -1,15 +1,6 @@
-// Ejercicio 3. Solicitar al usuario 2 palabras y luego mostrarlas juntas
+// ejercicio nota de estudiante, aprueba si es mayor a 7 o si pasó la recuperacion
 
-import readline from 'readline';
-
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
-
-rl.question('Cuando es tu cumple? ', (palabra1) => {
-    rl.question('Cuantos anios cumples? ', (palabra2) => {
-        console.log(`En  ${palabra1} cumpliras ${palabra2} anios  (^^)/`);
-        rl.close();
-    });
-});
+let nota = 6.5;
+let recuperacion = true;
+let aprueba = nota >= 7 || recuperacion ? "Aprobado" : "Reprobado";
+console.log("El estudiante está: " + aprueba);
