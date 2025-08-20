@@ -1,0 +1,22 @@
+Indicaciones: 
+•	Todos los ejercicios deben de resolverse en modo consola 
+•	Cada programa debe de mostrarse en la entrada solicitada y la salida esperada.
+•	Deberá subir sus ejercicios en una carpeta comprimida al espacio alojado en plataforma. 
+•	Cada ejercicio se considera bueno si cumple con lo solicitado y muestra en pantalla lo esperado. 
+•	Actividad complementamente individual. 
+
+
+Enunciados:
+
+1.	Solicita un nombre completo de usuario, muestra en consola los primeros 5 caracteres de ese nombre, sin espacios, en minúscula y agrega @gmail.com al final para crear una dirección de correo con ese nombre de usuario. 3pts -/
+
+2.	Pide al usuario un texto y reemplaza todas las vocales de este texto por símbolos (a=@, e=#, i=$, o=%, u=&). 3pts -/
+
+3.	Solicita al usuario una frase que contenga la palabra usuario y muestra en qué posición aparece. 2pts -/
+
+4.	Solicita al usuario una frase y muestra los primeros 6 caracteres de esa frase ingresada. 2pts -/
+
+
+
+
+- Yonathan Sánchez.
