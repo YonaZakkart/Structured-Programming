@@ -16,7 +16,7 @@ Enunciados:
 
 4.	Solicita al usuario una frase y muestra los primeros 6 caracteres de esa frase ingresada. 2pts -/
 
-
+--
 
 
 - Yonathan Sánchez.
