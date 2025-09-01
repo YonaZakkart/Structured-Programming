@@ -13,4 +13,3 @@ console.log("Animal race: ", animal.race);
 console.log("Animal size: ", animal.size);
 console.log("Animal color: ", animal.color);
 
-export { animal };
