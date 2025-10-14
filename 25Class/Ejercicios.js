@@ -8,7 +8,7 @@ let promedio = (n1, n2, n3) => {
     let resultado = (n1 + n2 + n3) / 3;
     return resultado
 }
-console.log("\nEl promedio de 5, 10 y 15 es: " + promedio(5, 10, 15));
+console.log("\nEl promedio de 8, 10 y 14 es: " + promedio(8, 10, 14));
 
 
 //3. Clacular el area de un triangulo
