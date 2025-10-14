@@ -24,7 +24,7 @@ rl.question("Ingrese el sueldo base: ", (sueldo) => {
             rl.close();
         })
     })
-})
+});
 
 
 
