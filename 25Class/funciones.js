@@ -41,3 +41,4 @@ console.log(saludo("Yona"));
 
 let saludo2 = nombre2 => `Saluditos ${nombre2}`
 console.log(saludo2('Yona 2'));
+
