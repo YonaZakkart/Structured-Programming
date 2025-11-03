@@ -10,8 +10,8 @@ const rl = readline.createInterface({
 
 function capitalizarPalabras(cadena) {
     return cadena
-        .split(" ")
-        .map(palabra => palabra.charAt(0).toUpperCase() + palabra.slice(1).toLowerCase())
+        .split(" ")     //Dividimos la cadena en palabras
+        .map(palabra => palabra.charAt(0).toUpperCase() + palabra.slice(1).toLowerCase()) //map() para recorrer cada palabra
         .join(" ");
 }
 
